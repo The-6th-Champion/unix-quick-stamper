@@ -211,12 +211,12 @@ namespace unix_quick_stamper
         {
             this.linkLabel1.LinkVisited = true;
 
-            System.Diagnostics.Process.Start("http://github.com/The-6th-Champion");
+            System.Diagnostics.Process.Start("https://github.com/The-6th-Champion");
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://github.com/The-6th-Champion/unix-quick-stamper");
+            System.Diagnostics.Process.Start("https://github.com/The-6th-Champion/unix-quick-stamper");
         }
     }
 }
