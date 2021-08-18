@@ -1,0 +1,19 @@
+{
+  "Theme": {
+    "radLight": false,
+    "radDark": false,
+    "radWinDef": true
+  },
+  "Discord": {
+    "Enabled": false,
+    "Formats": {
+      "radt": false,
+      "radTup": false,
+      "radd": false,
+      "radDup": false,
+      "radf": true,
+      "radFup": false,
+      "radR": false
+    }
+  }
+}
