@@ -99,7 +99,7 @@ namespace unix_quick_stamper
                     }
                 }
             }
-            string[] formats = { "HH:mm", "HH:mm:ss", "HH:mmZ", "HH:mm:ssZ", "yyyy-MM-dd", "yyyy-MM-ddTHH:mm", "yyyy-MM-ddTHH:mm:ss", "yyyy-MM-ddTHH:mmTZD", "yyyy-MM-ddTHH:mm:ssTZD", "dddd" };
+            string[] formats = { "HH:mm", "HH:mm:ss", "HH:mmZ", "HH:mm:ssZ", "yyyy-MM-dd", "yyyy-MM-ddTHH:mm", "yyyy-MM-ddTHH:mm:ss", "yyyy-MM-ddTHH:mmzzz", "yyyy-MM-ddTHH:mm:sszzz", "dddd", "ddd" };
             if (smartIn == "" || smartIn == "now")
             {
                 if (Defaults.discord)
